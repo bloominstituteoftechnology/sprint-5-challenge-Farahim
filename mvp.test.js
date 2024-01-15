@@ -51,8 +51,8 @@ describe('Sprint Challenge 5', () => {
     test('👉 [5] <h2> text is "Learner Cards"', () => {
       screen.getByText('Learner Cards')
     })
-    test('👉 [6] <footer> text is "© BLOOM INSTITUTE OF TECHNOLOGY 2024"', async () => {
-      screen.getByText('© BLOOM INSTITUTE OF TECHNOLOGY 2024')
+    test('👉 [6] <footer> text is "© BLOOM INSTITUTE OF TECHNOLOGY 2023"', async () => {
+      screen.getByText('© BLOOM INSTITUTE OF TECHNOLOGY 2023')
     })
   })
   describe('Successful Axios requests and DOM manipulation', () => {
