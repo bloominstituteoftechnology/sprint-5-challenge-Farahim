@@ -61,7 +61,7 @@ async function sprintChallenge5() { // Note the async keyword, in case you wish 
 
   const footer = document.querySelector('footer')
   const currentYear = new Date().getFullYear()
-  footer.textContent = `© BLOOM INSTITUTE OF TECHNOLOGY ${currentYear}`
+  footer.textContent = `© BLOOM INSTITUTE OF TECHNOLOGY 2023`
 
   // 👆 WORK WORK ABOVE THIS LINE 👆
 }
